@@ -10,7 +10,7 @@ export const ProductContainer = styled('main', {
   margin: '0 auto'
 })
 
-export const ImageContainer = styled('main', {
+export const ImageContainer = styled('div', {
   width: '100%',
   maxWidth: 576,
   height: 656,
@@ -27,7 +27,7 @@ export const ImageContainer = styled('main', {
   }
 })
 
-export const ProductDetails = styled('main', {
+export const ProductDetails = styled('div', {
   display: 'flex',
   flexDirection: 'column',
 
